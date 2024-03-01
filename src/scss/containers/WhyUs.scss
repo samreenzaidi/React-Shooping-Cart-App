@@ -1,0 +1,42 @@
+.why-us{
+    display: flex;
+    margin: 6rem 0;
+    justify-content: center;
+    align-items: center;
+    .free-shipping{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        align-items: center;
+        &-image{
+            background: url('../../images/shipping.png');
+            background-size: 100% 100%;
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+    }
+    .refund{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        align-items: center;
+        &-image{
+            background: url('../../images/refund.png');
+            background-size: 100% 100%;
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+    }
+    .support{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        align-items: center;
+        &-image{
+            background: url('../../images/support.png');
+            background-size: 100% 100%;
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+    }
+}

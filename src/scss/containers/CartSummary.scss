@@ -1,0 +1,44 @@
+.cart-summary{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 5rem auto;
+    .redeem-voucher {
+        .voucher-input {
+            border: 2px solid #BCDDFE;
+            border-right: none;
+            padding: 0.725rem;
+            outline: none;
+            &:focus{
+              color: #00B4CC;
+            }
+        }
+    }
+    .redeem-button {
+        border: none;
+        background: #40BFFF;
+        text-align: center;
+        color: #fff;
+        padding: 0.825rem;
+        cursor: pointer;
+    }
+    .cart-total{
+        .cart-total-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 5rem;
+        }
+    }
+    .cart-checkout {
+        button {
+            appearance: none;
+            width: 100%;
+            border: none;
+            background: #40BFFF;
+            text-align: center;
+            color: #fff;
+            padding: 0.825rem;
+            cursor: pointer;
+        }
+    }
+}

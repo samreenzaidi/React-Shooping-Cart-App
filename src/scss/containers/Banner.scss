@@ -1,0 +1,51 @@
+.shop-banner{
+    background-color: #40BFFF;
+    position: relative;
+    height: 25rem;
+    margin-top: 10rem;
+    .text-over{
+        color:#fff;
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        width: 50%;
+        transform: translate(0%, -50%);
+        div{
+            &:nth-child(1){
+                font-size: 3.438rem;
+            }
+            &:nth-child(2){
+                font-size: 1.5rem;
+            }
+        }
+        .link{
+            font-size: 1.25rem;
+            border-bottom: 2px solid;
+        }
+    }
+    .image-over{
+        position: absolute;
+        background: url('../../images/shoe.png') no-repeat;
+        background-size: 95% 100%;
+        height: 22.5rem;
+        width: 40%;
+        left: 60%;
+        top: -20%;
+    }
+}
+
+.promotion-banner{
+    position: relative;
+    background: url('../../images/promotion-banner.png') no-repeat;
+    background-size: 100% 100%;
+    height: 40.625rem;
+    .text-over{
+        color:#fff;
+        font-size: 4rem;
+        font-weight: 700;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(0%, -50%);
+    }
+}

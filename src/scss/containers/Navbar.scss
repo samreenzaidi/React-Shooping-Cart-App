@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3rem 8rem 1rem;
+    &-logo {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    &-links {
+        list-style-type: none;
+        display: flex;
+        gap: 5rem;
+        padding: 0;
+        li{
+            a {
+                text-decoration: none;
+                transition: color 0.3s ease;
+                color: #262626;
+                cursor: pointer;
+            }
+            &:first-child{
+                a{
+                    color:#40BFFF
+                }
+                
+            }
+        }
+    }
+    
+}

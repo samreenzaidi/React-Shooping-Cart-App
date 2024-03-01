@@ -1,0 +1,22 @@
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    margin: 0 0 5rem;
+    background-color: #F6F7F8;
+    .breadcrumbs-item{
+        a {
+            color: #33A0FF;
+        }
+        +.breadcrumbs-item{
+            &::before {
+                padding: 8px;
+                color: black;
+                content: "/\00a0";
+            }
+        }
+        
+    }
+    
+}

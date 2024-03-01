@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    @import './common/Header.scss';
+    @import './containers/Navbar.scss';
+    @import './pages/Landing.scss';
+    @import './pages/Cart.scss';
+    @import './common/Footer.scss';
+}

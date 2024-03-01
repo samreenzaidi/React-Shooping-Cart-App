@@ -1,0 +1,54 @@
+.featured-products{
+    .heading{
+        display: flex;
+        justify-content: center;
+        font-size: 2.188rem;
+    }
+    .featured-product-tiles{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        padding: 0;
+        list-style-type: none;
+        .featured-product-tile{
+            width: 20%;
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            .product-image{
+                background-color: #f8f8f8;
+                position: relative;
+                img{
+                    width: 6rem;
+                    height: 6rem;
+                }
+            }
+            .product-details{
+                .product-rating{
+                    i {
+                        color: #FFC600; 
+                        font-size: 0.625rem; 
+                        padding-right: 0.2rem;
+                    }
+                }
+                .product-price-details{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;;
+                    .discounted-price{
+                        font-size: 1.125rem;
+                        font-weight: 700;
+                        color:#FB7181;
+                        padding-right: 0.5rem;
+                    }
+                    .original-price{
+                        font-size: 0.875rem;
+                        font-weight: 400;
+                        color: #9098B1;
+                        padding-right: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
